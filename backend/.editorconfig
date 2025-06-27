@@ -1,0 +1,20 @@
+root = true
+
+[*]
+http-proxy = 'http://gw-ti:8080'
+https-proxy = 'http://gw-ti:8080'
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{yml,yaml}]
+indent_size = 2
+
+[docker-compose.yml]
+indent_size = 4
